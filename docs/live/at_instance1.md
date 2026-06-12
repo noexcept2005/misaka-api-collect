@@ -1,4 +1,5 @@
 ```json
+
   {
     "background_type": 0,
     "bubble": 0,
@@ -108,5 +109,6 @@
     },
     "wealth_level": 0,
     "yeah_space_url": ""
-  },
+  }
+  
 ```

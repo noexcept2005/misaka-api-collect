@@ -12,14 +12,17 @@ roomid
 <details>
 <summary>查看响应示例：</summary>
 已封禁：
+
 ```json
 {"code":0,"msg":"ok","message":"ok","data":{"lock_till":1780847819}}
 ```
 
 未封禁：
+
 ```json
 {"code":0,"msg":"ok","message":"ok","data":{"lock_till":0}}
 ```
+
 </details>
 
 
@@ -32,6 +35,7 @@ roomid
 
 <details>
 <summary>查看被封禁响应示例：</summary>
+
 ```json
 {
     "code": 0,
@@ -71,6 +75,7 @@ page_size
 
 <details>
 <summary>查看响应示例：</summary>
+
 ```json
 {
     "code": 0,
