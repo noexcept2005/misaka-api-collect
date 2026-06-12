@@ -1,10 +1,8 @@
 # 贡献指南
 
-欢迎来到 bilibili-API-collect 社区贡献指南，本文主要面向想要对本项目参与贡献的用户, 请务必认真阅读本文正文与潜在的注释
+这是给自己看的  仅供参考
 
 ## 总则
-
-[bilibili-API-collect](https://github.com/SocialSisterYi/bilibili-API-collect) 项目（简称 BAC 或 b-a-c）是一个仅用于学习研究、社区开源、公益性质的 [B 站（哔哩哔哩）](https://www.bilibili.com/)API（应用程序接口）文档，使用 [CC-BY-NC 4.0 协议](https://github.com/SocialSisterYi/bilibili-API-collect/blob/master/LICENSE)开源，它将无差别收集整理相关的**主站业务接口**。
 
 该项目使用 [Markdown](https://zh.wikipedia.org/zh-cn/Markdown) 语法进行文档书写，按照业务类型及功能以**路径**＋**文件**形式索引，任何用户都可通过 Issue、Pull Request 与 Discussion 提供自己分析出的接口地址与使用说明。
 
@@ -25,27 +23,6 @@
 1. 标题言简意骇，说明欲提出的问题要点，如 `如何通过 xx 接口获取 yy`、`关于 xx 字段意义的探讨`、`建议将 xx 加入 yy 分类` 等标题；切勿使用表意含糊不清或索取性的标题，如 `怎么解决风控`、`搜索的接口是什么`、`好兄弟有没有投稿的接口` 等标题
 2. Discussion 正文应对遇到的问题进行尽可能详细的描述，展开并聚焦有关的信息，例如： “按照文档中某位置的说明进行了某操作，为什么无法获得预期结果”、“请问某 API 的某字段的具体含义是什么”
 3. 提出问题时注意[提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/main/README-zh_CN.md)并且[别像弱智一样提问](https://github.com/tangx/Stop-Ask-Questions-The-Stupid-Ways)
-
-同时，您还可以通过加入社群的方式参与讨论
-
-- QQ 交流群：[邀请链接](https://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=ympvb3LAPT-Ulu3ezhGqbkJ8zXMKImOX&authKey=z1KdkOdKO3wytN43m9K6On9nBtnDL4pAoD6VQHCipFBb9TasNDKuDHCmOE6TF3uc&noverify=0&group_code=191187164)
-- Telegram 交流群：[@bilibili_API_collect_community](https://t.me/bilibili_API_collect_community)
-
-::: tip 提示
-
-QQ 交流群为综合技术交流群（兼 Owner 的粉丝群），可交流探讨任何技术，包括但不限于 [BAC 项目](https://github.com/SocialSisterYi/bilibili-API-collect)
-
-Telegram 交流群主要用作 [BAC 项目](https://github.com/SocialSisterYi/bilibili-API-collect)的 Github Bot 接收，也可以进行项目相关的讨论，但不建议在此讨论交流其他内容（公开群）
-
-:::
-
-::: warning 注意
-
-群内讨论同样需要遵守**公开交流**的原则，以及群内会定期清理不活跃成员。
-
-**QQ 交流群**的加群问题答案可以去 [Owner 的主页](https://github.com/SocialSisterYi) Contact 部分找到，如果您填写“我不知道，从 Github 来的”那么管理员将有理由禁止您进群讨论！
-
-:::
 
 ::: danger 禁止
 
