@@ -1,7 +1,7 @@
 {
-  "name": "bilibili-api-collect",
+  "name": "misaka-api-collect",
   "version": "0.0.1",
-  "repository": "https://github.com/SocialSisterYi/bilibili-API-collect.git",
+  "repository": "https://github.com/noexcept2005/misaka-api-collect.git",
   "author": "SocialSisterYi <1440239038@qq.com>",
   "license": "CC-BY-NC-4.0",
   "scripts": {
