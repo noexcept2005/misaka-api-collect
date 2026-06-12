@@ -36,6 +36,14 @@
 | 字段              | 类型 | 内容        | 备注 |
 | ----------------- | ---- | ----------- | ---- |
 | mid               | num  | 用户 mid    |      |
+| accountInfo       | obj  | 参见下方    |      |
+| userInfo          | obj  | 参见下方    |      |
+| tip               | str  | 请XXXXX     | 请投币?? |
+
+`accountInfo` 对象:
+| 字段              | 类型 | 内容        | 备注 |
+| ----------------- | ---- | ----------- | ---- |
+| brokerage         | num  | ??          |      |
 | totalBp           | num  | 总计 B 币   |      |
 | defaultBp         | num  | 默认 B 币?  |      |
 | iosBp             | num  | iOS B 币?   |      |
@@ -44,7 +52,14 @@
 | unavailableBp     | num  | 不可用 B 币 |      |
 | unavailableReason | str  | 不可用原因  |      |
 | tip               | str  | 请XXXXX     | 请投币?? |
-| needShowClassBalance | num | 需要显示类余额?? | 1 |
+
+`userInfo` 对象:
+| 字段              | 类型 | 内容        | 备注 |
+| ----------------- | ---- | ----------- | ---- |
+| realName         | str  | 用户实名注册的真名，隐去名字保留姓氏   |      |
+| tel              | str  | 用户实名注册的手机号，隐去从第四位开始的五位   |      |
+> 这里有个人隐私信息，我考虑过使用 `DNS屏蔽`
+
 
 **示例:**
 
@@ -60,23 +75,23 @@ curl -X POST 'https://pay.bilibili.com/paywallet/wallet/getUserWallet' \
 
 ```json
 {
-  "code": 0,
-  "errno": 0,
-  "msg": "SUCCESS",
-  "showMsg": "",
-  "data": {
-    "mid": 616368979,
-    "totalBp": 0.00,
-    "defaultBp": 0.00,
-    "iosBp": 0.00,
-    "couponBalance": 0,
-    "availableBp": 0.00,
-    "unavailableBp": 0,
-    "unavailableReason": "",
-    "tip": "请XXXXX",
-    "needShowClassBalance": 1
-  },
-  "success": true
+    "code": 0,
+    "errno": 0,
+    "msg": "SUCCESS",
+    "showMsg": "",
+    "data": {
+        "accountInfo": {
+            "brokerage": 301.87,
+            "defaultBp": 5.00,
+            "iosBp": 5.00,
+            "totalBp": 5.00
+        },
+        "userInfo": {
+			"realName": "孙*",
+			"tel": "133*****173"
+		}
+	},
+	"success": true
 }
 ```
 
